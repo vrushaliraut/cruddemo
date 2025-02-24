@@ -12,13 +12,6 @@ import java.util.List;
 @RequestMapping("/api")
 public class EmployeeRestController {
 
-    // private final EmployeeDAO employeeDAO;
-    // Quick and dirty: inject employee dao (use constructor injection)- refactor later
-
-//    public EmployeeRestController(EmployeeDAO employeeDAO) {
-//        this.employeeDAO = employeeDAO;
-//    }
-
     private EmployeeService employeeService;
 
     @Autowired
